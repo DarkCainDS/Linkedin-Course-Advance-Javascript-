@@ -1,0 +1,71 @@
+/* Estilo de fuente global */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilo del encabezado */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+/* Estilo de los campos del formulario */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 0;
+  padding: 20px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  background-color: #e9ecef;
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+/* Estilo del botón de enviar */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Estilo de la sección de mensaje */
+textarea.form-control {
+  height: 150px;
+  resize: none;
+}
+
+/* Estilo del contenedor */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
